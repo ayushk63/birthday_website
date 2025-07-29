@@ -22,7 +22,7 @@ export default function App() {
             <div id = 'left3'>HAPPY BIRTHDAY</div>
             <div id = 'left4'>RESHMA!</div>
           </div>
-          <img id = 'rapunzel2' src='/rapunzel2.jpg' />
+          <img id = 'rapunzel2' src='./rapunzel2.jpg' />
           <div id = 'right'>
           </div>
         </div>
@@ -75,17 +75,17 @@ export default function App() {
         <div id = 'sketchesTitle'>SKETCHES</div>
         <div id = 'sketches'>
           <div id = 'sketchRow1'>
-            <img className='sketch' src = '/sketch1.jpg' />
-            <img className='sketch' src = '/sketch2.jpg' />
-            <img className='sketch' src = '/sketch3.jpg' />
+            <img className='sketch' src = './sketch1.jpg' />
+            <img className='sketch' src = './sketch2.jpg' />
+            <img className='sketch' src = './sketch3.jpg' />
           </div>
           <div id = 'sketchRow2'>
-            <img className='sketch' src = '/sketch4.jpg' />
-            <img className='sketch' src = '/sketch5.jpg' />
+            <img className='sketch' src = './sketch4.jpg' />
+            <img className='sketch' src = './sketch5.jpg' />
           </div>
         </div>
         <div id = 'greetingsTitle'>GREETINGS</div>
-        <img id = 'rapunzel1' src = '/rapunzel1.jpg' />
+        <img id = 'rapunzel1' src = './rapunzel1.jpg' />
         <div id = 'greetings'>
           <div id = 'greetingsPara'>
           Happy Birthday Reshma! May God bless you with infinite joys and blessings throughout your life.<br />Congratulations on securing 9.077 CGPA in your 4th Semester! Keep it up, and try to get 9.6 next time.<br /> Hope you like this website. It took some effort to make it. This is for your birthday. Happy Birthday again!
