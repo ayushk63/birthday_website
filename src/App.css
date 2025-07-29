@@ -1,0 +1,198 @@
+body {
+  background-color: #DB7DD0;
+}
+
+.navBar {
+  display: flex;
+  border-radius: 40px;
+  background-color: #470845;
+  color: white;
+}
+
+.navBar ul {
+  list-style: none;
+  display: flex;
+}
+
+.navBar ul li {
+  font-weight: bold;
+  padding: 10px;
+  font-size: 20px;
+  margin-left: 40px;
+}
+
+.navBar ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.navBar ul li a:hover {
+  background-color: white;
+  cursor: pointer;
+  color: #470845;
+  border-radius: 40px;
+  padding: 10px;
+}
+
+#left {
+  margin-left: 30px;
+  margin-top: 60px;
+  font-size: 4rem;
+  font-family: fantasy;
+}
+
+#left1 {
+  color: #A61111
+}
+
+#left2 {
+  color: #114F11;
+}
+
+#left3 {
+  color: #22114D;
+}
+
+#left4 {
+  color: #BD0023;
+}
+
+#div1 {
+  display: flex;
+}
+
+#balloon1 {
+  width: 400px;
+  height: 350px;
+}
+
+#right {
+  margin-left: 60px;
+  margin-top: 60px;
+}
+
+#poem {
+  background-color: #F0E367;
+  margin-top: 50px;
+  border-radius: 40px;
+  text-align: center;
+  width: 500px;
+  padding: 40px;
+  margin-left: 400px;
+  font-size: 1.5rem;
+  font-family: cursive;
+}
+
+#poemTitle {
+  margin-top: 100px;
+  margin-left: 620px;
+  font-size: 3.5rem;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+#sketchesTitle {
+  margin-top: 100px;
+  margin-left: 580px;
+  font-size: 3.5rem;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+#sketchRow1, #sketchRow2 {
+  display: flex;
+}
+
+.sketch {
+  width: 350px;
+  height: 400px;
+  padding: 30px;
+  margin-left: 30px;
+}
+
+#sketches {
+  border-radius: 20px;
+  background: linear-gradient(to right, #0A0E29
+, #A6AEE0);
+  margin-top: 50px;
+}
+
+#greetingsTitle {
+  margin-top: 100px;
+  margin-left: 550px;
+  font-size: 3.5rem;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+#greetings {
+  margin-top: 50px;
+  border-radius: 20px;
+  background: linear-gradient(to right, #690505
+, #D15C5C);
+  padding: 40px;
+  margin-left: 440px;
+  width: 400px;
+}
+
+#greetingsPara {
+  color: white;
+  font-size: 1.5rem;
+  font-family: cursive;
+}
+
+#footer1 {
+  padding: 30px;
+  background: linear-gradient(to right, #041C02, #6AD964);
+  margin-top: 50px;
+  display: flex;
+  color: white;
+}
+
+#footerLeftTitle {
+  font-weight: bold;
+  font-size: 1.7rem;
+}
+
+#footerLeftPara {
+  font-size: 1.2rem;
+  font-family: cursive;
+}
+
+#footerRight {
+  margin-left: 270px;
+}
+
+#footerRightTitle {
+  font-weight: bold;
+  font-size: 1.7rem
+}
+
+#email, #whatsapp, #linkedin {
+  margin-top: 20px;
+  display: flex;
+  font-size: 1.3rem;
+}
+
+#emailText, #whatsappText, #linkedinText {
+  margin-left: 10px;
+  font-family: cursive;
+}
+
+#rapunzel1 {
+  width: 300px;
+  height: 350px;
+  margin-left: 530px;
+  margin-top: 50px;
+  border-radius: 50%;
+  border: 5px solid red;
+}
+
+#rapunzel2 {
+  width: 400px;
+  height: 450px;
+  border: 5px solid purple;
+  border-radius: 50%;
+  margin-left: 260px;
+  margin-top: 30px;
+}
