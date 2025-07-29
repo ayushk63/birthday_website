@@ -3,6 +3,12 @@ import { IoMdMail } from "react-icons/io";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import rapunzel2 from './rapunzel2.jpg';
+import rapunzel1 from './rapunzel1.jpg';
+import sketch1 from './sketch1.jpg';
+import sketch2 from './sketch2.jpg';
+import sketch3 from './sketch3.jpg';
+import sketch4 from './sketch4.jpg';
+import sketch5 from './sketch5.jpg';
 
 export default function App() {
   return (
@@ -76,17 +82,17 @@ export default function App() {
         <div id = 'sketchesTitle'>SKETCHES</div>
         <div id = 'sketches'>
           <div id = 'sketchRow1'>
-            <img className='sketch' src = './sketch1.jpg' />
-            <img className='sketch' src = './sketch2.jpg' />
-            <img className='sketch' src = './sketch3.jpg' />
+            <img className='sketch' src = {sketch1} />
+            <img className='sketch' src = {sketch2} />
+            <img className='sketch' src = {sketch3} />
           </div>
           <div id = 'sketchRow2'>
-            <img className='sketch' src = './sketch4.jpg' />
-            <img className='sketch' src = './sketch5.jpg' />
+            <img className='sketch' src = {sketch4} />
+            <img className='sketch' src = {sketch5} />
           </div>
         </div>
         <div id = 'greetingsTitle'>GREETINGS</div>
-        <img id = 'rapunzel1' src = './rapunzel1.jpg' />
+        <img id = 'rapunzel1' src = {rapunzel1} />
         <div id = 'greetings'>
           <div id = 'greetingsPara'>
           Happy Birthday Reshma! May God bless you with infinite joys and blessings throughout your life.<br />Congratulations on securing 9.077 CGPA in your 4th Semester! Keep it up, and try to get 9.6 next time.<br /> Hope you like this website. It took some effort to make it. This is for your birthday. Happy Birthday again!
