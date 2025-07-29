@@ -2,6 +2,7 @@ import './App.css'
 import { IoMdMail } from "react-icons/io";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import rapunzel2 from './rapunzel2.jpg';
 
 export default function App() {
   return (
@@ -22,7 +23,7 @@ export default function App() {
             <div id = 'left3'>HAPPY BIRTHDAY</div>
             <div id = 'left4'>RESHMA!</div>
           </div>
-          <img id = 'rapunzel2' src='./rapunzel2.jpg' />
+          <img id = 'rapunzel2' src={rapunzel2} />
           <div id = 'right'>
           </div>
         </div>
